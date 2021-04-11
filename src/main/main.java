@@ -20,6 +20,7 @@ public class main {
 		funcionario.setEmail("rubenssilva905@gmail.com");
 		funcionario.setNome("rubens");
 		funcionario.setSenha("aralis16");
+		funcionario.setSexo("homem");
 		funcionario.setUsuario("rubens");
 		double[] hora_trabalhada = new double[15];
 		for (int i = 0; i < hora_trabalhada.length; i++) {
@@ -28,7 +29,7 @@ public class main {
 		funcionario.setHoras_trabalhadas(hora_trabalhada);
 		double[] valor_hora = new double[15];
 		for (int i = 0; i < valor_hora.length; i++) {
-			valor_hora[i]=r.nextDouble()*10*150;
+			valor_hora[i]=r.nextDouble()*10*75;
 		}
 		funcionario.setValor_hora(valor_hora);
 		System.out.println(funcionario.toString());

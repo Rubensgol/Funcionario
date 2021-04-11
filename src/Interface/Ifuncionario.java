@@ -2,7 +2,7 @@ package Interface;
 
 public interface Ifuncionario {
 	
-	public double salario_mes();
+	public double[] salario_mes();
 	public double total_salario();
 	public double media_salario();
 	public double[] maiores_salarios(int n);
