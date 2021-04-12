@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="model.Funcionario">
+    <void property="data_nascimento">
+     <object class="java.util.Date">
+      <long>1291946400000</long>
+     </object>
+    </void>
+    <void property="email">
+     <string>rubenssilva905@gmail.com</string>
+    </void>
+    <void property="horas_trabalhadas">
+     <array class="double" length="15">
+      <void index="0">
+       <double>140.63901932480667</double>
+      </void>
+      <void index="1">
+       <double>100.57411063866269</double>
+      </void>
+      <void index="2">
+       <double>148.4602346157456</double>
+      </void>
+      <void index="3">
+       <double>126.79399837079644</double>
+      </void>
+      <void index="4">
+       <double>121.72342090169218</double>
+      </void>
+      <void index="5">
+       <double>3.8142322994301736</double>
+      </void>
+      <void index="6">
+       <double>73.42325811033393</double>
+      </void>
+      <void index="7">
+       <double>71.08900333807732</double>
+      </void>
+      <void index="8">
+       <double>85.19415864815394</double>
+      </void>
+      <void index="9">
+       <double>10.215140750190574</double>
+      </void>
+      <void index="10">
+       <double>129.61736123320668</double>
+      </void>
+      <void index="11">
+       <double>34.25415643841401</double>
+      </void>
+      <void index="12">
+       <double>131.95599723075657</double>
+      </void>
+      <void index="13">
+       <double>87.64375237511076</double>
+      </void>
+      <void index="14">
+       <double>67.72200628092271</double>
+      </void>
+     </array>
+    </void>
+    <void property="nome">
+     <string>rubens</string>
+    </void>
+    <void property="senha">
+     <string>97137E060CBD3DEF946DBA133881737E0CD718A9</string>
+    </void>
+    <void property="sexo">
+     <string>homem</string>
+    </void>
+    <void property="usuario">
+     <string>rubens</string>
+    </void>
+    <void property="valor_hora">
+     <array class="double" length="15">
+      <void index="0">
+       <double>716.9545674264783</double>
+      </void>
+      <void index="1">
+       <double>30.43600670182911</double>
+      </void>
+      <void index="2">
+       <double>603.6377196627537</double>
+      </void>
+      <void index="3">
+       <double>271.79921952813874</double>
+      </void>
+      <void index="4">
+       <double>146.64676281692616</double>
+      </void>
+      <void index="5">
+       <double>75.90175876646168</double>
+      </void>
+      <void index="6">
+       <double>651.3427190148124</double>
+      </void>
+      <void index="7">
+       <double>359.2476141894164</double>
+      </void>
+      <void index="8">
+       <double>692.3552769571355</double>
+      </void>
+      <void index="9">
+       <double>131.07741170642888</double>
+      </void>
+      <void index="10">
+       <double>447.2375815336061</double>
+      </void>
+      <void index="11">
+       <double>668.2767438248426</double>
+      </void>
+      <void index="12">
+       <double>737.699730079011</double>
+      </void>
+      <void index="13">
+       <double>20.17364430648383</double>
+      </void>
+      <void index="14">
+       <double>171.0033537383649</double>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="model.Funcionario">
+    <void property="data_nascimento">
+     <object class="java.util.Date">
+      <long>1291946400000</long>
+     </object>
+    </void>
+    <void property="email">
+     <string>rubenssilva905@gmail.com</string>
+    </void>
+    <void property="horas_trabalhadas">
+     <array class="double" length="15">
+      <void index="0">
+       <double>57.78218985375538</double>
+      </void>
+      <void index="1">
+       <double>153.40777451827154</double>
+      </void>
+      <void index="2">
+       <double>137.6201782783324</double>
+      </void>
+      <void index="3">
+       <double>74.47607718867678</double>
+      </void>
+      <void index="4">
+       <double>9.805938422196423</double>
+      </void>
+      <void index="5">
+       <double>83.84431260861075</double>
+      </void>
+      <void index="6">
+       <double>4.294546999962314</double>
+      </void>
+      <void index="7">
+       <double>40.52308148128647</double>
+      </void>
+      <void index="8">
+       <double>20.792292736531426</double>
+      </void>
+      <void index="9">
+       <double>144.3219135955231</double>
+      </void>
+      <void index="10">
+       <double>88.04518065015701</double>
+      </void>
+      <void index="11">
+       <double>125.62522456284063</double>
+      </void>
+      <void index="12">
+       <double>20.24000094334875</double>
+      </void>
+      <void index="13">
+       <double>95.19861966102141</double>
+      </void>
+      <void index="14">
+       <double>149.18196252748803</double>
+      </void>
+     </array>
+    </void>
+    <void property="nome">
+     <string>rubens</string>
+    </void>
+    <void property="senha">
+     <string>97137E060CBD3DEF946DBA133881737E0CD718A9</string>
+    </void>
+    <void property="sexo">
+     <string>homem</string>
+    </void>
+    <void property="usuario">
+     <string>rubens</string>
+    </void>
+    <void property="valor_hora">
+     <array class="double" length="15">
+      <void index="0">
+       <double>532.1642820081098</double>
+      </void>
+      <void index="1">
+       <double>316.38527186386636</double>
+      </void>
+      <void index="2">
+       <double>524.7044252171667</double>
+      </void>
+      <void index="3">
+       <double>514.8921196392228</double>
+      </void>
+      <void index="4">
+       <double>411.97825946649186</double>
+      </void>
+      <void index="5">
+       <double>29.211417649450176</double>
+      </void>
+      <void index="6">
+       <double>379.2640831072652</double>
+      </void>
+      <void index="7">
+       <double>218.02487886104078</double>
+      </void>
+      <void index="8">
+       <double>526.3990836935245</double>
+      </void>
+      <void index="9">
+       <double>203.37850794353724</double>
+      </void>
+      <void index="10">
+       <double>106.4508149862555</double>
+      </void>
+      <void index="11">
+       <double>94.64936084286019</double>
+      </void>
+      <void index="12">
+       <double>424.92330318950656</double>
+      </void>
+      <void index="13">
+       <double>45.197051887280736</double>
+      </void>
+      <void index="14">
+       <double>414.178345070258</double>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="15.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="model.Funcionario">
+    <void property="data_nascimento">
+     <object class="java.util.Date">
+      <long>1291946400000</long>
+     </object>
+    </void>
+    <void property="email">
+     <string>rubenssilva905@gmail.com</string>
+    </void>
+    <void property="horas_trabalhadas">
+     <array class="double" length="15">
+      <void index="0">
+       <double>30.130707016377265</double>
+      </void>
+      <void index="1">
+       <double>143.57746910036377</double>
+      </void>
+      <void index="2">
+       <double>102.19265551712262</double>
+      </void>
+      <void index="3">
+       <double>147.39084223898692</double>
+      </void>
+      <void index="4">
+       <double>18.012426515825393</double>
+      </void>
+      <void index="5">
+       <double>65.72582115200296</double>
+      </void>
+      <void index="6">
+       <double>92.35940233274644</double>
+      </void>
+      <void index="7">
+       <double>0.9787471570228945</double>
+      </void>
+      <void index="8">
+       <double>38.34546465921042</double>
+      </void>
+      <void index="9">
+       <double>93.95640634044116</double>
+      </void>
+      <void index="10">
+       <double>129.73768547406644</double>
+      </void>
+      <void index="11">
+       <double>83.19956861979566</double>
+      </void>
+      <void index="12">
+       <double>51.562916706070595</double>
+      </void>
+      <void index="13">
+       <double>97.10604468528109</double>
+      </void>
+      <void index="14">
+       <double>96.5170706309643</double>
+      </void>
+     </array>
+    </void>
+    <void property="nome">
+     <string>rubens</string>
+    </void>
+    <void property="senha">
+     <string>97137E060CBD3DEF946DBA133881737E0CD718A9</string>
+    </void>
+    <void property="sexo">
+     <string>homem</string>
+    </void>
+    <void property="usuario">
+     <string>rubens</string>
+    </void>
+    <void property="valor_hora">
+     <array class="double" length="15">
+      <void index="0">
+       <double>705.9998053279505</double>
+      </void>
+      <void index="1">
+       <double>691.6131687657742</double>
+      </void>
+      <void index="2">
+       <double>558.9430752031309</double>
+      </void>
+      <void index="3">
+       <double>376.31577475036784</double>
+      </void>
+      <void index="4">
+       <double>326.158244514693</double>
+      </void>
+      <void index="5">
+       <double>318.8765194563761</double>
+      </void>
+      <void index="6">
+       <double>179.2832123025791</double>
+      </void>
+      <void index="7">
+       <double>675.7609421562545</double>
+      </void>
+      <void index="8">
+       <double>163.19939966995526</double>
+      </void>
+      <void index="9">
+       <double>387.31004328983533</double>
+      </void>
+      <void index="10">
+       <double>115.77707647511326</double>
+      </void>
+      <void index="11">
+       <double>229.186991858641</double>
+      </void>
+      <void index="12">
+       <double>441.8555035976233</double>
+      </void>
+      <void index="13">
+       <double>407.5265729992726</double>
+      </void>
+      <void index="14">
+       <double>675.3184965330806</double>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

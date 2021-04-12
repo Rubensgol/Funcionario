@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 import java.text.DecimalFormat;
 import java.time.LocalDateTime;
@@ -15,7 +15,14 @@ public class Funcionario extends Usuario implements Ifuncionario {
 	private double[] valor_hora;
 	private Date data_nascimento;
 	private String sexo;
+	private String cargo;
 			
+	public String getCargo() {
+		return cargo;
+	}
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
 	public String getSexo() {
 		return sexo;
 	}
@@ -61,6 +68,8 @@ public class Funcionario extends Usuario implements Ifuncionario {
 		builder.append(nome);
 		builder.append(", email=");
 		builder.append(email);
+		builder.append("\n");
+		builder.append(cargo);
 		builder.append("\n");
 		builder.append("horas_trabalhadas=");
 		builder.append(mostra_Vetor(horas_trabalhadas));

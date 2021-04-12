@@ -3,12 +3,18 @@ package main;
 import java.text.ParseException;
 import java.util.Random;
 
-import Model.Funcionario;
 import Util.DataUtil;
+import model.Funcionario;
+import model.ListaFuncionario;
+import persistencia.Gravacao;
+import persistencia.GravarJSON;
+import persistencia.GravarXML;
+import persistencia.Persistencia;
 
 public class main {
 
 	public static void main(String[] args) {
+		
 		Random r = new Random();
 		Funcionario funcionario = new Funcionario();
 		try {
@@ -34,6 +40,15 @@ public class main {
 		funcionario.setValor_hora(valor_hora);
 		System.out.println(funcionario.toString());
 		
+		ListaFuncionario lf = new ListaFuncionario();
+		Gravacao gra = new GravarXML();
+		Persistencia p = new Persistencia(gra);
+		
+		lf.setFuncionarios(gra.ler());
+		
+		
+		
+		System.out.println(lf.getFuncionarios().toString());
 
 	}
 
