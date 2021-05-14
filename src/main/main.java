@@ -3,13 +3,13 @@ package main;
 import java.text.ParseException;
 import java.util.Random;
 
-import Util.DataUtil;
 import model.Funcionario;
 import model.ListaFuncionario;
 import persistencia.Gravacao;
 import persistencia.GravarJSON;
 import persistencia.GravarXML;
 import persistencia.Persistencia;
+import util.DataUtil;
 
 public class main {
 
@@ -23,8 +23,8 @@ public class main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		funcionario.setEmail("rubenssilva905@gmail.com");
-		funcionario.setNome("rubens");
+		funcionario.setEmail("asdas@gmail.com");
+		funcionario.setNome("asdasd");
 		funcionario.setSenha("aralis16");
 		funcionario.setSexo("homem");
 		funcionario.setUsuario("rubens");
@@ -41,11 +41,12 @@ public class main {
 		System.out.println(funcionario.toString());
 		
 		ListaFuncionario lf = new ListaFuncionario();
-		Gravacao gra = new GravarXML();
+		Gravacao gra = new GravarJSON();
 		Persistencia p = new Persistencia(gra);
 		
-		lf.setFuncionarios(gra.ler());
-		
+		lf.setFuncionarios(p.ler());
+		lf.adicionarFuncionario(funcionario);
+		p.gravar(lf.getFuncionarios());
 		
 		
 		System.out.println(lf.getFuncionarios().toString());

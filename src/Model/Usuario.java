@@ -1,6 +1,6 @@
 package model;
 
-import Util.Incriptacao;
+import util.Incriptacao;
 
 public class Usuario {
 	private String usuario;
